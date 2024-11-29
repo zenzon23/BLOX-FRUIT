@@ -1338,7 +1338,7 @@ function L_6_:Window(L_51_arg0)
 	end;
 	return L_64_
 end;
-local L_16_ = L_6_:Window("God Hub")
+local L_16_ = L_6_:Window("Onyx Hub")
 local L_17_ = L_16_:Tab("")
 local L_18_ = L_17_:Section("Login")
 local L_19_ = ""
@@ -1356,10 +1356,10 @@ end)
 local L_22_;
 local L_23_ = L_18_:Button("Get Key", function()
 	if setclipboard then
-		setclipboard("https://ads.luarmor.net/godhub")
+		setclipboard("https://discord.gg/bnhQKTar5u")
 		L_22_:Change("URL copied to your clipboard")
 		task.wait(3)
-		L_22_:Change("Key: ads.luarmor.net/godhub")
+		L_22_:Change("Key:https://discord.gg/bnhQKTar5u")
 	else
 		L_22_:Change("Couldn't copy the URL to your clipboard")
 		task.wait(3)
@@ -1367,9 +1367,9 @@ local L_23_ = L_18_:Button("Get Key", function()
 	end
 end)
 L_22_ = L_18_:Label("Key: ads.luarmor.net/godhub")
-L_18_:Label("https://discord.gg/DWseGHth")
+L_18_:Label("https://discord.gg/bnhQKTar5u")
 L_18_:Button("Copy Discord Invite", function()
 	if setclipboard then
-		setclipboard("https://discord.gg/fM6MFjQX9J")
+		setclipboard("https://discord.gg/bnhQKTar5u")
 	end
 end)
